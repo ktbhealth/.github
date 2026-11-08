@@ -1,9 +1,19 @@
 # KTB Health
 
-Ambient AI scribe for telemedicine: we capture consultations, transcribe them, and turn medical conversations into lasting clinical documentation.
+Ambient AI scribe for telemedicine: we capture consultations, transcribe them, and turn medical conversations into lasting clinical documentation. The AI drafts; the physician decides.
 
-## Product
+## Repos
 
-* [**KTB**](https://github.com/ktbhealth/ktbhealth): SaaS platform for doctors. Consultation audio capture, PT-BR transcription (Whisper), structured anamnesis, doctor review and approval, export to the medical record. The AI drafts; the physician decides.
+| Repo | What |
+|---|---|
+| [ktbhealth](https://github.com/ktbhealth/ktbhealth) | Product monorepo — web app, plugins, transcription, infra |
+| [ui](https://github.com/ktbhealth/ui) | Design system — Tailwind v4 tokens + React/Vue components (git-tag releases) |
+| [storybook](https://github.com/ktbhealth/storybook) | Component catalog for `ui` |
+| [website-draft](https://github.com/ktbhealth/website-draft) | Landing site — TanStack Start on Cloudflare Workers |
+| [presentation-draft](https://github.com/ktbhealth/presentation-draft) | Pitch deck (Slidev) |
+| [slidev-theme-ktb](https://github.com/ktbhealth/slidev-theme-ktb) | Slidev theme sharing product tokens |
+| [project](https://github.com/ktbhealth/project) | Task board, proposals, ADRs (myco ledger) |
+
+Every repo carries an `AGENTS.md` with agent-facing rules — read it first.
 
 Site: [ktbhealth.workers.dev](https://ktb-landing-draft-landing-prod-bmaduimiynqekj6u.ktbhealth.workers.dev)
