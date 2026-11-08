@@ -6,7 +6,7 @@ Ambient AI scribe for telemedicine: we capture consultations, transcribe them, a
 
 | Repo | What |
 |---|---|
-| [ktbhealth](https://github.com/ktbhealth/ktbhealth) | Product monorepo — web app, plugins, transcription, infra |
+| [product](https://github.com/ktbhealth/product) | Product monorepo — web app, plugins, transcription, infra |
 | [ui](https://github.com/ktbhealth/ui) | Design system — Tailwind v4 tokens + React/Vue components (git-tag releases) |
 | [storybook](https://github.com/ktbhealth/storybook) | Component catalog for `ui` |
 | [website-draft](https://github.com/ktbhealth/website-draft) | Landing site — TanStack Start on Cloudflare Workers |
