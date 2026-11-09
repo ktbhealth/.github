@@ -15,5 +15,3 @@ Ambient AI scribe for telemedicine: we capture consultations, transcribe them, a
 | [project](https://github.com/ktbhealth/project) | Task board, proposals, ADRs (myco ledger) |
 
 Every repo carries an `AGENTS.md` with agent-facing rules — read it first.
-
-Site: [ktbhealth.workers.dev](https://ktb-landing-draft-landing-prod-bmaduimiynqekj6u.ktbhealth.workers.dev)
