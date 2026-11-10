@@ -13,5 +13,6 @@ Ambient AI scribe for telemedicine: we capture consultations, transcribe them, a
 | [presentation-draft](https://github.com/ktbhealth/presentation-draft) | Pitch deck (Slidev) |
 | [slidev-theme-ktb](https://github.com/ktbhealth/slidev-theme-ktb) | Slidev theme sharing product tokens |
 | [project](https://github.com/ktbhealth/project) | Task board, proposals, ADRs (myco ledger) |
+| [docs](https://github.com/ktbhealth/docs) | Documentation site — Fumadocs on TanStack Start, Cloudflare Workers |
 
 Every repo carries an `AGENTS.md` with agent-facing rules — read it first.
