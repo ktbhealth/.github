@@ -2,7 +2,7 @@ name: loc
 
 # Weekly + manual lines-of-code report across all ktbhealth repos.
 # Thin caller — the tool lives in 9aia/cypera (tools/loc + reusable
-# workflows), pinned to tag loc-v2.
+# workflows), pinned to tag loc-v3.
 #
 # Auth: docs publish uses the ci.ktbhealth.workers.dev token broker
 # (lasius-bot GitHub App, docs-scoped) — needs TOKEN_MINT_SECRET secret.
