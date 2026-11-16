@@ -1,0 +1,6 @@
+name: ktb-loc-config
+version: "0.1.0"
+type: files
+description: >-
+  ktbhealth org configuration for the cypera loc-org reusable
+  workflow — repo list, docs publish targets, token broker.

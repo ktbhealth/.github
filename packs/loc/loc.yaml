@@ -1,0 +1,9 @@
+org: ktbhealth
+repos: .github docs presentation-draft product project slidev-theme-ktb storybook ui website-draft workspace
+docs_repo: ktbhealth/docs
+docs_outputs: |
+  en=content/docs/en/developers/root/reference/codebase-metrics.mdx
+  pt-BR=content/docs/pt-BR/developers/root/reference/codebase-metrics.mdx
+docs_branch: loc-metrics
+pr_base: main
+token_broker_url: https://ci.ktbhealth.workers.dev
