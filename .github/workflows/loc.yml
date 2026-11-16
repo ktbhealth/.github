@@ -16,7 +16,7 @@ on:
 
 jobs:
   loc:
-    uses: 9aia/cypera/.github/workflows/loc-org.yml@loc-v2
+    uses: 9aia/cypera/.github/workflows/loc-org.yml@loc-v3
     with:
       org: ktbhealth
       repos: .github docs presentation-draft product project slidev-theme-ktb storybook ui website-draft workspace
@@ -25,7 +25,7 @@ jobs:
         en=content/docs/en/developers/root/reference/codebase-metrics.mdx
         pt-BR=content/docs/pt-BR/developers/root/reference/codebase-metrics.mdx
       token_broker_url: https://ci.ktbhealth.workers.dev
-      tool_ref: loc-v2
+      tool_ref: loc-v3
     # secrets: inherit only works within the same org/enterprise — this
     # reusable workflow lives in 9aia/cypera, so secrets must be mapped
     # explicitly or they resolve to empty strings.
