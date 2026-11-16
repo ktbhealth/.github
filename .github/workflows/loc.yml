@@ -1,0 +1,29 @@
+name: loc
+
+# Weekly + manual lines-of-code report across all ktbhealth repos.
+# Thin caller — the tool lives in 9aia/cypera (tools/loc + reusable
+# workflows), pinned to tag loc-v1.
+#
+# Required secrets on this repo:
+#   DOCS_BOT_TOKEN  PAT/App token with contents+pull-requests write on
+#                   ktbhealth/docs — enables the docs page refresh PR.
+#   LOC_READ_TOKEN  optional PAT with read access — needed to count the
+#                   private repos (website-draft, presentation-draft).
+
+on:
+  schedule:
+    - cron: "23 6 * * 1" # Mondays 06:23 UTC
+  workflow_dispatch:
+
+jobs:
+  loc:
+    uses: 9aia/cypera/.github/workflows/loc-org.yml@loc-v1
+    with:
+      org: ktbhealth
+      repos: .github docs presentation-draft product project slidev-theme-ktb storybook ui website-draft workspace
+      docs_repo: ktbhealth/docs
+      docs_outputs: |
+        en=content/docs/en/developers/root/reference/codebase-metrics.mdx
+        pt-BR=content/docs/pt-BR/developers/root/reference/codebase-metrics.mdx
+      tool_ref: loc-v1
+    secrets: inherit
