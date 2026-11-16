@@ -25,3 +25,4 @@ jobs:
     # explicitly or they resolve to empty strings.
     secrets:
       TOKEN_MINT_SECRET: ${{ secrets.TOKEN_MINT_SECRET }}
+      LOC_READ_TOKEN: ${{ secrets.LOC_READ_TOKEN }}
