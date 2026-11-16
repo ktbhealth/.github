@@ -17,7 +17,7 @@ on:
 
 jobs:
   loc:
-    uses: 9aia/cypera/.github/workflows/loc-org.yml@v0.2.2
+    uses: 9aia/cypera/.github/workflows/loc-org.yml@v0.2.3
     with:
       config_ref: git:ktbhealth/.github//packs/loc#main
     # secrets: inherit only works within the same org/enterprise — this
