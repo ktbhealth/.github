@@ -3,7 +3,7 @@ name: loc
 # Weekly + manual lines-of-code report across all ktbhealth repos.
 # Thin caller — the tool and this org's config are distributed as
 # tamias packs by the 9aia/cypera reusable workflow (pinned to
-# cypera semver tag v0.2.0); the org config lives in packs/loc/.
+# cypera semver tag v0.2.1); the org config lives in packs/loc/.
 #
 # Auth: docs publish uses the ci.ktbhealth.workers.dev token broker
 # (lasius-bot GitHub App, docs-scoped) — needs TOKEN_MINT_SECRET secret.
@@ -17,7 +17,7 @@ on:
 
 jobs:
   loc:
-    uses: 9aia/cypera/.github/workflows/loc-org.yml@v0.2.0
+    uses: 9aia/cypera/.github/workflows/loc-org.yml@v0.2.1
     with:
       config_ref: git:ktbhealth/.github//packs/loc#main
     # secrets: inherit only works within the same org/enterprise — this
